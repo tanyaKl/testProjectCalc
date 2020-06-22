@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box;
+	transition: all 0.3s ease;
+}
+html, body, h1, h2, h3, h4, h5, h6 
+{ 
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	background: #fafafa;
+}
+.calc{
+	width: 340px;
+	margin: 0 auto;
+	padding: 15px;
+	border-radius: 10px;
+	background: #ccc;
+	user-select:none;
+}
+.numb-1, .numb-2{
+	width: 70%;
+	outline: none;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 10px 0;
+}
+.answer-line{
+	width: 100%;
+	border-top: 1px solid black; 
+	border-bottom: 1px solid black; 
+	background: #999;
+}
+.answer, .eq, .clear{
+	display: inline-block;
+	padding: 10px;
+	cursor: pointer;
+	margin: 2px;
+	text-align: center;
+}
+.eq:hover, .clear:hover{
+	background: #fafafa;
+}
+.clear{
+	width: 19%;
+}
+.eq{
+	width: 19%;
+}
+.answer{
+	vertical-align: middle;
+	width: 55%;
+	cursor: default;
+	background: #fafaaf;
+}
+.numbers{
+	display: inline-block;
+	width: 70%;
+}
+.numb{
+	display: inline-block;
+	width: 30%;
+	background: #888;
+	text-align: center;
+	padding: 10px;
+	margin: 2px;
+	cursor: pointer;
+}
+.numb:hover{
+	background: #fafafa;
+}
+.act{
+	display: inline-block;
+	width: 19%;
+}
+input[type='radio']+label{
+	display: block;
+	background: #9e9e9e;
+}
